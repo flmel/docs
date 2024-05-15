@@ -261,7 +261,7 @@ table {
     margin-bottom: 1.5rem !important;
 }
 
-.breadcrumbs__link {
+.breadcrumbs li:not(:last-child) > .breadcrumbs__link {
     padding-left: 0;
 }
 
